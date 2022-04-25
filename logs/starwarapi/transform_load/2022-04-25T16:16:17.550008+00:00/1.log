@@ -1,0 +1,19 @@
+[2022-04-25 16:22:29,821] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [queued]>
+[2022-04-25 16:22:30,904] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [queued]>
+[2022-04-25 16:22:30,910] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 16:22:30,916] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-25 16:22:30,926] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 16:22:33,743] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): transform_load> on 2022-04-25 16:16:17.550008+00:00
+[2022-04-25 16:22:35,495] {standard_task_runner.py:52} INFO - Started process 175 to run task
+[2022-04-25 16:22:38,339] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'starwarapi', 'transform_load', 'scheduled__2022-04-25T16:16:17.550008+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/starwar_dag.py', '--cfg-path', '/tmp/tmps2vgzyvb', '--error-file', '/tmp/tmp9aopfj4e']
+[2022-04-25 16:22:38,413] {standard_task_runner.py:80} INFO - Job 80: Subtask transform_load
+[2022-04-25 16:22:43,230] {logging_mixin.py:109} INFO - Running <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [running]> on host c95c0782ea05
+[2022-04-25 16:22:46,789] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=anuragvuppala@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=starwarapi
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-25T16:16:17.550008+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-25T16:16:17.550008+00:00

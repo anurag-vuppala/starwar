@@ -1,0 +1,184 @@
+[2022-04-25 16:28:19,679] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [queued]>
+[2022-04-25 16:28:19,726] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [queued]>
+[2022-04-25 16:28:19,727] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 16:28:19,729] {taskinstance.py:1250} INFO - Starting attempt 2 of 2
+[2022-04-25 16:28:19,730] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 16:28:19,756] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): transform_load> on 2022-04-25 16:16:17.550008+00:00
+[2022-04-25 16:28:19,765] {standard_task_runner.py:52} INFO - Started process 186 to run task
+[2022-04-25 16:28:19,776] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'starwarapi', 'transform_load', 'scheduled__2022-04-25T16:16:17.550008+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/starwar_dag.py', '--cfg-path', '/tmp/tmpnokftuok', '--error-file', '/tmp/tmpjstianv2']
+[2022-04-25 16:28:19,778] {standard_task_runner.py:80} INFO - Job 94: Subtask transform_load
+[2022-04-25 16:28:19,880] {logging_mixin.py:109} INFO - Running <TaskInstance: starwarapi.transform_load scheduled__2022-04-25T16:16:17.550008+00:00 [running]> on host 78492d0c0135
+[2022-04-25 16:28:19,964] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=anuragvuppala@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=starwarapi
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-25T16:16:17.550008+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-25T16:16:17.550008+00:00
+[2022-04-25 16:28:20,534] {python.py:175} INFO - Done. Returned value was:                  Spaceship_Name  ... Passenger_Capacity
+0                 CR90 corvette  ...                600
+1                Star Destroyer  ...                n/a
+2  Sentinel-class landing craft  ...                 75
+3                    Death Star  ...            843,342
+4             Millennium Falcon  ...                  6
+5                        Y-wing  ...                  0
+6                        X-wing  ...                  0
+7               TIE Advanced x1  ...                  0
+8                      Executor  ...              38000
+9               Rebel transport  ...                 90
+
+[10 rows x 5 columns]
+[2022-04-25 16:28:20,579] {xcom.py:448} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2022-04-25 16:28:20,586] {taskinstance.py:1747} WARNING - We expected to get frame set in local storage but it was not. Please report this as an issue with full logs at https://github.com/apache/***/issues/new
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1340, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1477, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1544, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2207, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 155, in set
+    value=cls.serialize_value(value),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 445, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1741, in get_truncated_error_traceback
+    execution_frame = _TASK_EXECUTION_FRAME_LOCAL_STORAGE.frame
+AttributeError: '_thread._local' object has no attribute 'frame'
+[2022-04-25 16:28:20,593] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1340, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1477, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1544, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2207, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 155, in set
+    value=cls.serialize_value(value),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 445, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2022-04-25 16:28:20,619] {taskinstance.py:1288} INFO - Marking task as FAILED. dag_id=starwarapi, task_id=transform_load, execution_date=20220425T161617, start_date=20220425T162819, end_date=20220425T162820
+[2022-04-25 16:28:20,674] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:108: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-04-25 16:28:20,676] {configuration.py:381} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-04-25 16:28:20,677] {email.py:214} INFO - Email alerting: attempt 1
+[2022-04-25 16:28:20,691] {configuration.py:381} WARNING - section/key [smtp/smtp_user] not found in config
+[2022-04-25 16:28:20,692] {email.py:214} INFO - Email alerting: attempt 1
+[2022-04-25 16:28:20,694] {taskinstance.py:1825} ERROR - Failed to send email to: ['anuragvuppala@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1340, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1477, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1544, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2207, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 155, in set
+    value=cls.serialize_value(value),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 445, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2159, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 69, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 108, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 216, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 250, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1823, in handle_failure
+    self.email_alert(error)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2161, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 69, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 108, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 216, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 250, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2022-04-25 16:28:20,758] {standard_task_runner.py:98} ERROR - Failed to execute job 94 for task transform_load (Object of type DataFrame is not JSON serializable; 186)
+[2022-04-25 16:28:20,882] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-25 16:28:21,075] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
