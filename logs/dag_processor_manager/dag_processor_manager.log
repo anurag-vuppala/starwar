@@ -172,3 +172,206 @@ File Path                         PID    Runtime      # DAGs    # Errors  Last R
 [2022-04-25 13:28:41,692] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
 [2022-04-25 13:28:41,695] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:23:41.695327+00:00
 [2022-04-25 13:28:49,755] {manager.py:498} INFO - Exiting gracefully upon receiving signal 15
+[2022-04-25 13:56:33,269] {manager.py:517} INFO - Processing files using up to 2 processes at a time 
+[2022-04-25 13:56:33,272] {manager.py:518} INFO - Process each file at most once every 30 seconds
+[2022-04-25 13:56:33,274] {manager.py:520} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-04-25 13:56:33,277] {manager.py:704} INFO - Searching for files in /opt/airflow/dags
+[2022-04-25 13:56:33,312] {manager.py:707} INFO - There are 1 files in /opt/airflow/dags
+[2022-04-25 13:56:33,555] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:56:33,562] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:51:33.562212+00:00
+[2022-04-25 13:56:33,767] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/starwar_dag.py     57  0.29s             0           0
+================================================================================
+[2022-04-25 13:56:43,806] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:56:43,813] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:51:43.813651+00:00
+[2022-04-25 13:56:53,897] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:56:53,909] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:51:53.909425+00:00
+[2022-04-25 13:57:04,023] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:04,081] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:04.079335+00:00
+[2022-04-25 13:57:06,295] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py     77  1.39s             1           0  0.61s           2022-04-25T13:56:34
+================================================================================
+[2022-04-25 13:57:14,599] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:14,643] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:14.643526+00:00
+[2022-04-25 13:57:25,581] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:25,600] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:25.600175+00:00
+[2022-04-25 13:57:35,733] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:35,736] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:35.736561+00:00
+[2022-04-25 13:57:36,766] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  3.94s           2022-04-25T13:57:08
+================================================================================
+[2022-04-25 13:57:45,842] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:45,845] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:45.845430+00:00
+[2022-04-25 13:57:55,867] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:57:55,879] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:52:55.879750+00:00
+[2022-04-25 13:58:05,924] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:05,926] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:05.926942+00:00
+[2022-04-25 13:58:06,943] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.83s           2022-04-25T13:57:39
+================================================================================
+[2022-04-25 13:58:16,421] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:16,460] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:16.459966+00:00
+[2022-04-25 13:58:27,052] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:27,616] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:27.615651+00:00
+[2022-04-25 13:58:37,226] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.22s           2022-04-25T13:58:09
+================================================================================
+[2022-04-25 13:58:38,272] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:38,335] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:38.333823+00:00
+[2022-04-25 13:58:49,254] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:49,257] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:49.256870+00:00
+[2022-04-25 13:58:59,804] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:58:59,808] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:53:59.808238+00:00
+[2022-04-25 13:59:07,879] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  3.62s           2022-04-25T13:58:44
+================================================================================
+[2022-04-25 13:59:09,905] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:59:09,912] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:54:09.912294+00:00
+[2022-04-25 13:59:20,129] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:59:20,138] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:54:20.138047+00:00
+[2022-04-25 13:59:30,197] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:59:30,208] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:54:30.208371+00:00
+[2022-04-25 13:59:38,250] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.19s           2022-04-25T13:59:15
+================================================================================
+[2022-04-25 13:59:40,257] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:59:40,260] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:54:40.260666+00:00
+[2022-04-25 13:59:50,382] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 13:59:50,394] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:54:50.394359+00:00
+[2022-04-25 14:00:00,426] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:00,429] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:00.429562+00:00
+[2022-04-25 14:00:08,477] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.20s           2022-04-25T13:59:45
+================================================================================
+[2022-04-25 14:00:10,487] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:10,489] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:10.488970+00:00
+[2022-04-25 14:00:20,585] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:20,588] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:20.588342+00:00
+[2022-04-25 14:00:30,625] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:30,628] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:30.628517+00:00
+[2022-04-25 14:00:38,929] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.17s           2022-04-25T14:00:15
+================================================================================
+[2022-04-25 14:00:40,937] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:40,939] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:40.939531+00:00
+[2022-04-25 14:00:51,008] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:00:51,011] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:55:51.011739+00:00
+[2022-04-25 14:01:01,039] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:01,043] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:01.043366+00:00
+[2022-04-25 14:01:09,083] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.32s           2022-04-25T14:00:46
+================================================================================
+[2022-04-25 14:01:11,096] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:11,100] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:11.100293+00:00
+[2022-04-25 14:01:21,371] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:21,375] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:21.374863+00:00
+[2022-04-25 14:01:31,413] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:31,417] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:31.417302+00:00
+[2022-04-25 14:01:33,441] {manager.py:704} INFO - Searching for files in /opt/airflow/dags
+[2022-04-25 14:01:33,454] {manager.py:707} INFO - There are 1 files in /opt/airflow/dags
+[2022-04-25 14:01:39,614] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  0.13s           2022-04-25T14:01:16
+================================================================================
+[2022-04-25 14:01:41,633] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:41,639] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:41.639013+00:00
+[2022-04-25 14:01:51,725] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:01:51,728] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 13:56:51.728515+00:00
+[2022-04-25 14:34:21,845] {manager.py:704} INFO - Searching for files in /opt/airflow/dags
+[2022-04-25 14:34:21,901] {manager.py:707} INFO - There are 1 files in /opt/airflow/dags
+[2022-04-25 14:34:22,187] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:34:22,191] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:29:22.191469+00:00
+[2022-04-25 14:34:22,521] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py    279  0.18s             1           0  0.14s           2022-04-25T14:01:46
+================================================================================
+[2022-04-25 14:34:32,607] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:34:32,622] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:29:32.622470+00:00
+[2022-04-25 14:34:42,936] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:34:43,295] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:29:43.295419+00:00
+[2022-04-25 14:34:53,925] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py    291  0.03s             1           0  0.64s           2022-04-25T14:34:22
+================================================================================
+[2022-04-25 14:34:55,099] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:34:55,111] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:29:55.111414+00:00
+[2022-04-25 14:35:05,627] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:35:05,629] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:30:05.629479+00:00
+[2022-04-25 14:35:15,693] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:35:15,697] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:30:15.697160+00:00
+[2022-04-25 14:35:24,364] {manager.py:825} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/starwar_dag.py                           1           0  2.61s           2022-04-25T14:34:56
+================================================================================
+[2022-04-25 14:35:25,714] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:35:25,717] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:30:25.717651+00:00
+[2022-04-25 14:35:36,448] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:35:36,451] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:30:36.451181+00:00
+[2022-04-25 14:35:46,567] {manager.py:1106} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-25 14:35:46,569] {manager.py:1110} INFO - Failing jobs without heartbeat after 2022-04-25 14:30:46.569396+00:00
