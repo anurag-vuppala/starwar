@@ -1,0 +1,35 @@
+[2022-04-26 00:00:01,105] {processor.py:163} INFO - Started process (PID=156) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:01,117] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-26 00:00:01,123] {logging_mixin.py:109} INFO - [2022-04-26 00:00:01,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:01,199] {processor.py:652} INFO - DAG(s) dict_keys(['starwarapi']) retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:01,827] {logging_mixin.py:109} INFO - [2022-04-26 00:00:01,827] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-26 00:00:01,849] {logging_mixin.py:109} INFO - [2022-04-26 00:00:01,848] {dag.py:2937} INFO - Setting next_dagrun for starwarapi to 2022-04-26T00:00:01.181444+00:00
+[2022-04-26 00:00:01,866] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.795 seconds
+[2022-04-26 00:00:32,222] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:32,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-26 00:00:32,243] {logging_mixin.py:109} INFO - [2022-04-26 00:00:32,243] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:32,355] {processor.py:652} INFO - DAG(s) dict_keys(['starwarapi']) retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:00:33,471] {logging_mixin.py:109} INFO - [2022-04-26 00:00:33,471] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-26 00:00:33,580] {logging_mixin.py:109} INFO - [2022-04-26 00:00:33,580] {dag.py:2937} INFO - Setting next_dagrun for starwarapi to 2022-04-26T00:00:32.301973+00:00
+[2022-04-26 00:00:33,628] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 1.421 seconds
+[2022-04-26 00:01:03,960] {processor.py:163} INFO - Started process (PID=206) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:03,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-26 00:01:03,988] {logging_mixin.py:109} INFO - [2022-04-26 00:01:03,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:04,079] {processor.py:652} INFO - DAG(s) dict_keys(['starwarapi']) retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:05,195] {logging_mixin.py:109} INFO - [2022-04-26 00:01:05,194] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-26 00:01:05,228] {logging_mixin.py:109} INFO - [2022-04-26 00:01:05,227] {dag.py:2937} INFO - Setting next_dagrun for starwarapi to 2022-04-26T00:01:04.046041+00:00
+[2022-04-26 00:01:05,261] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 1.318 seconds
+[2022-04-26 00:01:35,367] {processor.py:163} INFO - Started process (PID=227) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:35,371] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-26 00:01:35,375] {logging_mixin.py:109} INFO - [2022-04-26 00:01:35,375] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:35,422] {processor.py:652} INFO - DAG(s) dict_keys(['starwarapi']) retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:01:35,844] {logging_mixin.py:109} INFO - [2022-04-26 00:01:35,844] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-26 00:01:35,862] {logging_mixin.py:109} INFO - [2022-04-26 00:01:35,862] {dag.py:2937} INFO - Setting next_dagrun for starwarapi to 2022-04-26T00:01:35.404894+00:00
+[2022-04-26 00:01:35,885] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.532 seconds
+[2022-04-26 00:02:05,997] {processor.py:163} INFO - Started process (PID=248) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:02:06,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-26 00:02:06,010] {logging_mixin.py:109} INFO - [2022-04-26 00:02:06,010] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:02:06,047] {processor.py:652} INFO - DAG(s) dict_keys(['starwarapi']) retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-26 00:02:06,588] {logging_mixin.py:109} INFO - [2022-04-26 00:02:06,588] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-26 00:02:06,631] {logging_mixin.py:109} INFO - [2022-04-26 00:02:06,631] {dag.py:2937} INFO - Setting next_dagrun for starwarapi to 2022-04-26T00:02:06.033274+00:00
+[2022-04-26 00:02:06,665] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.672 seconds

@@ -67,7 +67,7 @@ def store_data(*args):
                                                 "Passenger_Capacity",])
     
     # Creating .CSV file from pandas dataframe ##
-    ship_df.to_csv("Output_data.csv")
+    ship_df.to_csv("/opt/airflow/output/Output_data.csv")
     
 
 

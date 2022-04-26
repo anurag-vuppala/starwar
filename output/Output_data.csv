@@ -1,0 +1,11 @@
+,Spaceship_Name,Spaceship_Model,Max_Speed,Spaceship_Cost,Passenger_Capacity
+0,CR90 corvette,CR90 corvette,950,3500000,600
+1,Star Destroyer,Imperial I-class Star Destroyer,975,150000000,n/a
+2,Sentinel-class landing craft,Sentinel-class landing craft,1000,240000,75
+3,Death Star,DS-1 Orbital Battle Station,n/a,1000000000000,"843,342"
+4,Millennium Falcon,YT-1300 light freighter,1050,100000,6
+5,Y-wing,BTL Y-wing,1000km,134999,0
+6,X-wing,T-65 X-wing,1050,149999,0
+7,TIE Advanced x1,Twin Ion Engine Advanced x1,1200,unknown,0
+8,Executor,Executor-class star dreadnought,n/a,1143350000,38000
+9,Rebel transport,GR-75 medium transport,650,unknown,90
