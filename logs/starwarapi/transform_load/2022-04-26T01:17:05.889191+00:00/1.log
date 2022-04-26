@@ -1,0 +1,24 @@
+[2022-04-26 01:19:54,133] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:17:05.889191+00:00 [queued]>
+[2022-04-26 01:19:54,873] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:17:05.889191+00:00 [queued]>
+[2022-04-26 01:19:54,986] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:19:55,046] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-26 01:19:55,102] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:19:55,359] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): transform_load> on 2022-04-26 01:17:05.889191+00:00
+[2022-04-26 01:19:55,827] {standard_task_runner.py:52} INFO - Started process 170 to run task
+[2022-04-26 01:19:55,906] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'starwarapi', 'transform_load', 'scheduled__2022-04-26T01:17:05.889191+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/starwar_dag.py', '--cfg-path', '/tmp/tmpwpaa075v', '--error-file', '/tmp/tmp1b0wdy05']
+[2022-04-26 01:19:55,942] {standard_task_runner.py:80} INFO - Job 30: Subtask transform_load
+[2022-04-26 01:19:57,335] {logging_mixin.py:109} INFO - Running <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:17:05.889191+00:00 [running]> on host 66327e1a8873
+[2022-04-26 01:19:58,543] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=starwarapi
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-26T01:17:05.889191+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-26T01:17:05.889191+00:00
+[2022-04-26 01:20:51,112] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-26 01:20:52,613] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=starwarapi, task_id=transform_load, execution_date=20220426T011705, start_date=20220426T011954, end_date=20220426T012052
+[2022-04-26 01:20:55,543] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-04-26 01:20:56,067] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 170. PIDs of all processes in the group: [170]
+[2022-04-26 01:20:56,095] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 170
+[2022-04-26 01:20:56,470] {process_utils.py:70} INFO - Process psutil.Process(pid=170, status='terminated', exitcode=0, started='01:19:55') (170) terminated with exit code 0

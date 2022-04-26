@@ -1,0 +1,27 @@
+[2022-04-26 01:39:28,886] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.extracted scheduled__2022-04-26T01:38:51.766646+00:00 [queued]>
+[2022-04-26 01:39:28,910] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.extracted scheduled__2022-04-26T01:38:51.766646+00:00 [queued]>
+[2022-04-26 01:39:28,919] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:39:28,926] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-26 01:39:28,937] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:39:28,978] {taskinstance.py:1270} INFO - Executing <Task(BashOperator): extracted> on 2022-04-26 01:38:51.766646+00:00
+[2022-04-26 01:39:28,993] {standard_task_runner.py:52} INFO - Started process 1142 to run task
+[2022-04-26 01:39:29,025] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'starwarapi', 'extracted', 'scheduled__2022-04-26T01:38:51.766646+00:00', '--job-id', '141', '--raw', '--subdir', 'DAGS_FOLDER/starwar_dag.py', '--cfg-path', '/tmp/tmprfszxhlr', '--error-file', '/tmp/tmp_ah59pk_']
+[2022-04-26 01:39:29,027] {standard_task_runner.py:80} INFO - Job 141: Subtask extracted
+[2022-04-26 01:39:29,483] {logging_mixin.py:109} INFO - Running <TaskInstance: starwarapi.extracted scheduled__2022-04-26T01:38:51.766646+00:00 [running]> on host 66327e1a8873
+[2022-04-26 01:39:29,821] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=starwarapi
+AIRFLOW_CTX_TASK_ID=extracted
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-26T01:38:51.766646+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-26T01:38:51.766646+00:00
+[2022-04-26 01:39:29,827] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-26 01:39:29,829] {subprocess.py:74} INFO - Running command: ['bash', '-c', "echo 'Data_Extracted'"]
+[2022-04-26 01:39:29,861] {subprocess.py:85} INFO - Output:
+[2022-04-26 01:39:29,868] {subprocess.py:89} INFO - Data_Extracted
+[2022-04-26 01:39:29,870] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-04-26 01:39:30,036] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=starwarapi, task_id=extracted, execution_date=20220426T013851, start_date=20220426T013928, end_date=20220426T013930
+[2022-04-26 01:39:30,165] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-26 01:39:30,520] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

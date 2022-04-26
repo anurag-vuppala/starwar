@@ -1,0 +1,22 @@
+[2022-04-26 01:40:29,499] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:39:51.766646+00:00 [queued]>
+[2022-04-26 01:40:29,620] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:39:51.766646+00:00 [queued]>
+[2022-04-26 01:40:29,633] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:40:29,660] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-26 01:40:29,672] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-26 01:40:29,752] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): transform_load> on 2022-04-26 01:39:51.766646+00:00
+[2022-04-26 01:40:29,824] {standard_task_runner.py:52} INFO - Started process 1198 to run task
+[2022-04-26 01:40:29,850] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'starwarapi', 'transform_load', 'scheduled__2022-04-26T01:39:51.766646+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/starwar_dag.py', '--cfg-path', '/tmp/tmp1i81ff6j', '--error-file', '/tmp/tmpqh2ba85f']
+[2022-04-26 01:40:29,852] {standard_task_runner.py:80} INFO - Job 150: Subtask transform_load
+[2022-04-26 01:40:30,115] {logging_mixin.py:109} INFO - Running <TaskInstance: starwarapi.transform_load scheduled__2022-04-26T01:39:51.766646+00:00 [running]> on host 66327e1a8873
+[2022-04-26 01:40:30,283] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=starwarapi
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-26T01:39:51.766646+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-26T01:39:51.766646+00:00
+[2022-04-26 01:40:31,217] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-26 01:40:31,284] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=starwarapi, task_id=transform_load, execution_date=20220426T013951, start_date=20220426T014029, end_date=20220426T014031
+[2022-04-26 01:40:31,404] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-26 01:40:31,617] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
