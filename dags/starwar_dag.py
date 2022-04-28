@@ -5,6 +5,7 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
 
+
 args={
     # 'email': ['anuragvuppala@gmail.com'],
     'retries': 1,
@@ -21,7 +22,7 @@ with DAG(
 ) as dag:
     
     
-    #[start_Extracting_data_from_api]#
+    # [start_Extracting_data_from_api]#
     def starwar_api(*args):
         import requests
         import json
@@ -40,10 +41,10 @@ with DAG(
             
         else:
             print(f'Request Failed! -- Http error code {api_req.status_code}')
-    #[END_Extract_data_from_api]#   
+    # [END_Extract_data_from_api]#   
 
 
-    #[Start_transforming_data]#
+    # [Start_transforming_data]#
     def store_data(*args):
         import pandas
         import json
@@ -89,7 +90,7 @@ with DAG(
                                 python_callable=starwar_api)
         
     transform_load = PythonOperator(task_id = "transform_load",
-                                        python_callable = store_data) 
+                                        python_callable =store_data) 
         
     extracted = BashOperator(task_id = "extracted",
                                 bash_command = "echo 'Data_Extracted'")

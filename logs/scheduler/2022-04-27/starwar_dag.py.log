@@ -1,0 +1,358 @@
+[2022-04-27 18:20:14,956] {processor.py:163} INFO - Started process (PID=48) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:14,974] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:20:14,980] {logging_mixin.py:109} INFO - [2022-04-27 18:20:14,980] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:15,110] {logging_mixin.py:109} INFO - [2022-04-27 18:20:15,090] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:20:15,123] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:15,270] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.322 seconds
+[2022-04-27 18:20:46,205] {processor.py:163} INFO - Started process (PID=68) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:46,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:20:46,216] {logging_mixin.py:109} INFO - [2022-04-27 18:20:46,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:46,320] {logging_mixin.py:109} INFO - [2022-04-27 18:20:46,306] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:20:46,321] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:20:46,409] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.226 seconds
+[2022-04-27 18:21:16,691] {processor.py:163} INFO - Started process (PID=85) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:16,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:21:16,720] {logging_mixin.py:109} INFO - [2022-04-27 18:21:16,720] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:16,844] {logging_mixin.py:109} INFO - [2022-04-27 18:21:16,836] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:21:16,847] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:16,926] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.255 seconds
+[2022-04-27 18:21:47,806] {processor.py:163} INFO - Started process (PID=98) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:47,809] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:21:47,813] {logging_mixin.py:109} INFO - [2022-04-27 18:21:47,813] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:47,872] {logging_mixin.py:109} INFO - [2022-04-27 18:21:47,867] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:21:47,874] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:21:47,919] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.122 seconds
+[2022-04-27 18:22:18,048] {processor.py:163} INFO - Started process (PID=122) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:18,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:22:18,066] {logging_mixin.py:109} INFO - [2022-04-27 18:22:18,065] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:18,109] {logging_mixin.py:109} INFO - [2022-04-27 18:22:18,104] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:22:18,114] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:18,158] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.118 seconds
+[2022-04-27 18:22:48,517] {processor.py:163} INFO - Started process (PID=143) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:48,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:22:48,900] {logging_mixin.py:109} INFO - [2022-04-27 18:22:48,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:49,395] {logging_mixin.py:109} INFO - [2022-04-27 18:22:49,334] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:22:49,398] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:22:49,476] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 1.008 seconds
+[2022-04-27 18:23:19,586] {processor.py:163} INFO - Started process (PID=173) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:23:19,592] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:23:19,597] {logging_mixin.py:109} INFO - [2022-04-27 18:23:19,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:23:19,635] {logging_mixin.py:109} INFO - [2022-04-27 18:23:19,630] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    from py_code import extract,transform_load
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:23:19,639] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:23:19,685] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.108 seconds
+[2022-04-27 18:29:32,651] {processor.py:163} INFO - Started process (PID=49) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:29:32,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:29:32,673] {logging_mixin.py:109} INFO - [2022-04-27 18:29:32,673] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:29:32,759] {logging_mixin.py:109} INFO - [2022-04-27 18:29:32,748] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    import py_code.transform_load, py_code.extract
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:29:32,763] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:29:32,810] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.185 seconds
+[2022-04-27 18:30:03,177] {processor.py:163} INFO - Started process (PID=70) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:03,187] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:30:03,190] {logging_mixin.py:109} INFO - [2022-04-27 18:30:03,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:03,266] {logging_mixin.py:109} INFO - [2022-04-27 18:30:03,262] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    import py_code.transform_load, py_code.extract
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:30:03,269] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:03,334] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.172 seconds
+[2022-04-27 18:30:33,774] {processor.py:163} INFO - Started process (PID=89) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:33,777] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:30:33,780] {logging_mixin.py:109} INFO - [2022-04-27 18:30:33,780] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:33,820] {logging_mixin.py:109} INFO - [2022-04-27 18:30:33,816] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    import py_code.transform_load, py_code.extract
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:30:33,823] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:30:33,861] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.093 seconds
+[2022-04-27 18:31:05,079] {processor.py:163} INFO - Started process (PID=110) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:05,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:31:05,120] {logging_mixin.py:109} INFO - [2022-04-27 18:31:05,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:06,139] {logging_mixin.py:109} INFO - [2022-04-27 18:31:06,080] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6, in <module>
+    import py_code.transform_load, py_code.extract
+ModuleNotFoundError: No module named 'py_code'
+[2022-04-27 18:31:06,154] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:06,406] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 1.350 seconds
+[2022-04-27 18:31:31,643] {processor.py:163} INFO - Started process (PID=120) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:31,646] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:31:31,648] {logging_mixin.py:109} INFO - [2022-04-27 18:31:31,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:31,662] {logging_mixin.py:109} INFO - [2022-04-27 18:31:31,661] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    import ~/py_code.transform_load, py_code.extract
+           ^
+SyntaxError: invalid syntax
+[2022-04-27 18:31:31,664] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:31:31,699] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.063 seconds
+[2022-04-27 18:32:01,891] {processor.py:163} INFO - Started process (PID=140) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:01,894] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:32:01,898] {logging_mixin.py:109} INFO - [2022-04-27 18:32:01,898] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:01,912] {logging_mixin.py:109} INFO - [2022-04-27 18:32:01,910] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    import ~/py_code.transform_load, py_code.extract
+           ^
+SyntaxError: invalid syntax
+[2022-04-27 18:32:01,914] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:01,965] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.079 seconds
+[2022-04-27 18:32:08,923] {processor.py:163} INFO - Started process (PID=151) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:08,926] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:32:08,928] {logging_mixin.py:109} INFO - [2022-04-27 18:32:08,928] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:08,952] {logging_mixin.py:109} INFO - [2022-04-27 18:32:08,948] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:32:08,954] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:08,998] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.083 seconds
+[2022-04-27 18:32:39,205] {processor.py:163} INFO - Started process (PID=172) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:39,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:32:39,218] {logging_mixin.py:109} INFO - [2022-04-27 18:32:39,217] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:39,242] {logging_mixin.py:109} INFO - [2022-04-27 18:32:39,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:32:39,245] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:32:39,278] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.079 seconds
+[2022-04-27 18:33:09,360] {processor.py:163} INFO - Started process (PID=191) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:09,364] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:33:09,367] {logging_mixin.py:109} INFO - [2022-04-27 18:33:09,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:09,382] {logging_mixin.py:109} INFO - [2022-04-27 18:33:09,380] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:33:09,385] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:09,422] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.068 seconds
+[2022-04-27 18:33:39,577] {processor.py:163} INFO - Started process (PID=211) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:39,615] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:33:39,618] {logging_mixin.py:109} INFO - [2022-04-27 18:33:39,617] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:39,662] {logging_mixin.py:109} INFO - [2022-04-27 18:33:39,656] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:33:39,665] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:33:39,797] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.235 seconds
+[2022-04-27 18:34:09,905] {processor.py:163} INFO - Started process (PID=244) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:09,909] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:34:09,911] {logging_mixin.py:109} INFO - [2022-04-27 18:34:09,911] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:09,941] {logging_mixin.py:109} INFO - [2022-04-27 18:34:09,939] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:34:09,943] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:09,983] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.086 seconds
+[2022-04-27 18:34:41,010] {processor.py:163} INFO - Started process (PID=265) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:41,020] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:34:41,023] {logging_mixin.py:109} INFO - [2022-04-27 18:34:41,023] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:41,039] {logging_mixin.py:109} INFO - [2022-04-27 18:34:41,036] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:34:41,041] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:34:41,078] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.075 seconds
+[2022-04-27 18:35:11,286] {processor.py:163} INFO - Started process (PID=286) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:11,292] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:35:11,296] {logging_mixin.py:109} INFO - [2022-04-27 18:35:11,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:11,351] {logging_mixin.py:109} INFO - [2022-04-27 18:35:11,342] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:35:11,356] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:11,402] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.121 seconds
+[2022-04-27 18:35:41,570] {processor.py:163} INFO - Started process (PID=308) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:41,584] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:35:41,597] {logging_mixin.py:109} INFO - [2022-04-27 18:35:41,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:41,733] {logging_mixin.py:109} INFO - [2022-04-27 18:35:41,705] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:35:41,735] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:35:41,835] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.278 seconds
+[2022-04-27 18:36:13,278] {processor.py:163} INFO - Started process (PID=330) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:13,304] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:36:13,338] {logging_mixin.py:109} INFO - [2022-04-27 18:36:13,337] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:13,396] {logging_mixin.py:109} INFO - [2022-04-27 18:36:13,391] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:36:13,407] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:13,691] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 0.493 seconds
+[2022-04-27 18:36:52,350] {processor.py:163} INFO - Started process (PID=342) to work on /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:52,628] {processor.py:642} INFO - Processing file /opt/airflow/dags/starwar_dag.py for tasks to queue
+[2022-04-27 18:36:52,890] {logging_mixin.py:109} INFO - [2022-04-27 18:36:52,889] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:53,436] {logging_mixin.py:109} INFO - [2022-04-27 18:36:53,409] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/starwar_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/starwar_dag.py", line 6
+    from ~/py_code import extract
+         ^
+SyntaxError: invalid syntax
+[2022-04-27 18:36:53,440] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/starwar_dag.py
+[2022-04-27 18:36:57,719] {processor.py:171} INFO - Processing /opt/airflow/dags/starwar_dag.py took 6.884 seconds
